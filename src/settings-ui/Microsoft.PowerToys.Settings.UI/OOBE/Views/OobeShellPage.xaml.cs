@@ -181,7 +181,7 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
             });
 
             // TODO(yuyoyuppe): uncomment when VCM should be enabled
-            /* Modules.Insert((int)PowerToysModulesEnum.VideoConference, new OobePowerToysModule()
+            Modules.Insert((int)PowerToysModulesEnum.VideoConference, new OobePowerToysModule()
             {
                 ModuleName = loader.GetString("Oobe_VideoConference"),
                 Tag = "VideoConference",
@@ -192,7 +192,7 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
                 Description = loader.GetString("Oobe_VideoConference_Description"),
                 PreviewImageSource = "ms-appx:///Assets/Modules/OOBE/VideoConferenceMute.png",
                 Link = "https://aka.ms/PowerToysOverview_VideoConference",
-            }); */
+            });
         }
 
         public void OnClosing()
