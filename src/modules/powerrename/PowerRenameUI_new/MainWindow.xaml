@@ -20,7 +20,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Image Width="20" Source="../Assets/folder.png" Grid.Column="0"/>
-                    <TextBlock Text="{x:Bind Original}" Grid.Column="1"/>
+                    <TextBlock Text="{x:Bind Original, Mode=OneWay}" Grid.Column="1"/>
                     <TextBlock Text="{x:Bind Renamed, Mode=OneWay}" Grid.Column="2"/>
                 </Grid>
             </controls:TreeViewItem>
@@ -36,7 +36,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Image Width="20" Source="../Assets/file.png" Grid.Column="0"/>
-                    <TextBlock Text="{x:Bind Original}" Grid.Column="1"/>
+                    <TextBlock Text="{x:Bind Original, Mode=OneWay}" Grid.Column="1"/>
                     <TextBlock Text="{x:Bind Renamed, Mode=OneWay}" Grid.Column="2"/>
                 </Grid>
             </controls:TreeViewItem>
